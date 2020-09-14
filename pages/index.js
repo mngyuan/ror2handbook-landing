@@ -13,6 +13,14 @@ const Landing = () => (
       <span>Info and stats on all items and equipment for Risk of Rain 2.</span>
     </div>
     <div className="row">
+      <a
+        href="https://apps.apple.com/app/id1528143765"
+        className="download-badge"
+      >
+        <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />
+      </a>
+    </div>
+    <div className="row">
       <div className="w-50 m-hide">
         <div className="w-50-inner">
           And survivors (and how to unlock them), too.
@@ -65,6 +73,14 @@ const Landing = () => (
           </FadeIn>
         </div>
       </div>
+    </div>
+    <div className="row">
+      <a
+        href="https://apps.apple.com/app/id1528143765"
+        className="download-badge"
+      >
+        <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />
+      </a>
     </div>
     <style jsx>
       {`
@@ -130,6 +146,17 @@ const Landing = () => (
           padding-bottom: 8vh;
         }
 
+        .download-badge {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          padding: 40px;
+        }
+
+        .download-badge img {
+          width: 200px;
+        }
+
         .m-only {
           display: none;
         }
@@ -167,6 +194,10 @@ const Landing = () => (
           }
           .w-50.m-only {
             display: inline-block;
+          }
+
+          .download-badge img {
+            width: 50%;
           }
         }
       `}
