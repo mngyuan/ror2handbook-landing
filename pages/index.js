@@ -24,6 +24,13 @@ const Landing = () => (
         href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/site.webmanifest" />
+      <meta
+        property="og:description"
+        content="Complete guide for Risk of Rain 2 for iOS"
+        key="og-description"
+      />
+      <meta property="og:title" content="RoR2 Handbook" key="og-title" />
+      <meta property="og:image" content="mock1.png" />
     </Head>
     <Layout>
       <div className="above-fold">

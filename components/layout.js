@@ -33,7 +33,7 @@ const Layout = ({children}) => (
         </Link>
       </div>
       <div className="footer-copyright">
-        <a>More by Kevin Lee</a>
+        <a href="https://mngyuan.com">More by Kevin Lee</a>
       </div>
     </footer>
     <style jsx>{`
