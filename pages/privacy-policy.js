@@ -11,18 +11,19 @@ const PrivacyPolicy = () => (
       </p>
       <h2>Information we collect</h2>
       <p>
-        The app does not collect any information. At a further date, in order to
-        gain insight to improve the development of the app, anonymous analytics
-        may be added to the app.
+        The app does not collect any personally identifiable information. In
+        order to gain insight to improve the development of the app, aggregate,
+        anonymous statistics, such as the percentage of users who use particular
+        features, are collected.
       </p>
       <h2>Ads and Analytics</h2>
       <p>
-        The RoR2 Handbook app does not collect any kind of analytics, statistics
-        or otherwise. In the future, it may collect aggregate, anonymous
-        statistics, such as the number of times a particular feature is used, to
-        improve the app. The RoR2 Handbook app does not have ads. In the future,
-        this may change to help support the solo indie development team, but
-        only if deemed necessary by the developer.
+        The RoR2 Handbook app does not collect any personal information. It
+        collects aggregate, anonymous usage statistics, such as the number of
+        times a particular feature is used, to improve the app. The RoR2
+        Handbook app does not have ads. In the future, this may change to help
+        support the solo indie development team, but only if deemed necessary by
+        the developer.
       </p>
       <h2>Information usage</h2>
       <p>
@@ -72,6 +73,10 @@ const PrivacyPolicy = () => (
         this page. Summary of changes so far:
       </p>
       <ul>
+        <li>
+          15 Sept 2020: Update to reflect aggregate, anonymous usage analytics
+          collection.
+        </li>
         <li>3 Sept 2020: First published.</li>
       </ul>
     </div>
