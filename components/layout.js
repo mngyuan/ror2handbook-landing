@@ -11,6 +11,20 @@ const Layout = ({children}) => (
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
       />
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-FS4W4Z1WD2"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-177310750-1');`,
+        }}
+      />
     </Head>
     <header>
       <div className="logo-wrapper">
