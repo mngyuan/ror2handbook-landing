@@ -43,12 +43,25 @@ const Landing = () => (
           Info and stats on all items and equipment for Risk of Rain 2.
         </span>
       </div>
-      <div className="row">
+      <div className="row download-badges">
         <a
           href="https://apps.apple.com/app/id1528143765"
           className="download-badge"
         >
-          <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />
+          <img
+            src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            width="200"
+          />
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.ror2handbook&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+          className="download-badge"
+        >
+          <img
+            alt="Get it on Google Play"
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+            width="248"
+          />
         </a>
       </div>
       <div className="row">
@@ -108,16 +121,35 @@ const Landing = () => (
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row download-badges">
         <a
           href="https://apps.apple.com/app/id1528143765"
           className="download-badge"
         >
-          <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" />
+          <img
+            src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            width="200"
+          />
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.ror2handbook&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+          className="download-badge"
+        >
+          <img
+            alt="Get it on Google Play"
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+            width="248"
+          />
         </a>
       </div>
       <style jsx>
         {`
+          .download-badges {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
           .above-fold {
             width: 50vw;
             display: flex;
@@ -187,10 +219,6 @@ const Landing = () => (
             padding: 40px;
           }
 
-          .download-badge img {
-            width: 200px;
-          }
-
           .m-only {
             display: none;
           }
@@ -230,8 +258,11 @@ const Landing = () => (
               display: inline-block;
             }
 
+            .download-badges {
+              flex-direction: column;
+            }
             .download-badge img {
-              width: 50%;
+              width: 160px;
             }
           }
         `}
