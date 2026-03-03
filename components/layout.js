@@ -30,24 +30,17 @@ const Layout = ({children}) => (
       <div className="logo-wrapper">
         <img src="ror2handbook.svg" alt="RoR2 Handbook logo" className="logo" />
         <Link href="/">
-          <a>
-            <span className="nameplate">RoR2 Handbook</span>
-          </a>
+          <span className="nameplate">RoR2 Handbook</span>
         </Link>
       </div>
     </header>
     <main>{children}</main>
     <footer>
       <div className="footer-links">
-        <Link href="/privacy-policy">
-          <a>Privacy Policy</a>
-        </Link>
-        <Link href="/support">
-          <a>Support</a>
-        </Link>
+        <Link href="/privacy-policy">Privacy Policy</Link>
       </div>
       <div className="footer-copyright">
-        <a href="https://mngyuan.com">More by Kevin Lee</a>
+        <Link href="/support">Support</Link>
       </div>
     </footer>
     <style jsx>{`
@@ -128,8 +121,8 @@ const Layout = ({children}) => (
           font-family: 'Space Grotesk';
           src: url('SpaceGrotesk-Regular.eot'); /* IE9 Compat Modes */
           /* IE6-IE8 */
-          src: url('SpaceGrotesk-Regular.eot?#iefix')
-              format('embedded-opentype'),
+          src:
+            url('SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
             url('SpaceGrotesk-Regular.otf') format('opentype'),
             /* Modern Browsers */ url('SpaceGrotesk-Regular.woff')
               format('woff');
@@ -141,7 +134,8 @@ const Layout = ({children}) => (
           font-family: 'SpaceGrotesk';
           src: url('SpaceGrotesk-Medium.eot'); /* IE9 Compat Modes */
           /* IE6-IE8 */
-          src: url('SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+          src:
+            url('SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
             url('SpaceGrotesk-Medium.otf') format('opentype'),
             /* Modern Browsers */ url('SpaceGrotesk-Medium.woff') format('woff');
           font-weight: 500;
