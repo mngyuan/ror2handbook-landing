@@ -9,49 +9,114 @@ const PrivacyPolicy = () => (
         This policy applies to all information collected by the RoR2 Handbook
         app for iPhone and any other devices and platforms.
       </p>
-      <h2>Information we collect</h2>
+      <h2>Information We Collect</h2>
       <p>
-        The app does not collect any personally identifiable information. In
-        order to gain insight to improve the development of the app, aggregate,
-        anonymous statistics, such as the percentage of users who use particular
-        features, are collected.
+        The app does not collect names, email addresses, contact information,
+        location data, or store user-generated content. However, we do collect
+        some non-personal information through Google AdMob for analytics
+        purposes:
       </p>
-      <h2>Ads and Analytics</h2>
+      <ul>
+        <li>
+          Usage data: We collect anonymous data about how the app is used, such
+          as which features are accessed and how often.
+        </li>
+        <li>
+          Device ID: We collect a unique identifier for your device for
+          analytics purposes.
+        </li>
+      </ul>
       <p>
-        The RoR2 Handbook app does not collect any personal information. It
-        collects aggregate, anonymous usage statistics, such as the number of
-        times a particular feature is used, to improve the app. The RoR2
-        Handbook app does not have ads. In the future, this may change to help
-        support the solo indie development team, but only if deemed necessary by
-        the developer.
+        Neither of these types of data are linked to you personally nor contain
+        any personal information.
       </p>
-      <h2>Information usage</h2>
+      <h2>Advertising</h2>
       <p>
-        We do not have and thus do not share personal information with outside
-        parties, and will not except to the extent necessary to accomplish RoR2
-        Handbook’s functionality. We may share anonymous, aggregate statistics
-        with outside parties, such as how many use the app.
+        RoR2 Handbook uses Google AdMob, a third-party advertising service
+        provided by Google, to serve personalized ads within the app. AdMob
+        accesses your device&apos;s advertising identifier (IDFA on iOS, GAID
+        on Android) to serve personalized ads. AdMob may collect information
+        including:
       </p>
-
+      <ul>
+        <li>Device information (device type, operating system version)</li>
+        <li>Advertising identifier (IDFA on iOS, GAID on Android)</li>
+        <li>IP address (used for approximate geolocation)</li>
+        <li>Ad interaction data (impressions and clicks)</li>
+      </ul>
       <p>
-        In the future, if we choose to collect your information, we may disclose
-        your information in response to subpoenas, court orders, or other legal
-        requirements; to exercise our legal rights or defend against legal
-        claims; to investigate, prevent, or take action regarding illegal
-        activities, suspected fraud or abuse, violations of our policies; or to
-        protect our rights and property.
+        For more information about how Google uses your data, please visit{' '}
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Google&apos;s Privacy Policy
+        </a>{' '}
+        and{' '}
+        <a
+          href="https://policies.google.com/technologies/partner-sites"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          how Google uses data from partner apps
+        </a>
+        .
       </p>
-
+      <h2>Information Usage</h2>
+      <p>We use the collected information for the following purposes:</p>
+      <ul>
+        <li>To analyze app usage patterns and improve user experience</li>
+        <li>To identify and fix potential issues or bugs</li>
+        <li>
+          To make data-driven decisions about future app development and feature
+          prioritization
+        </li>
+        <li>To serve advertisements through Google AdMob</li>
+      </ul>
+      <h2>Information Sharing</h2>
       <p>
-        In the future, we may sell to, buy, merge with, or partner with other
-        businesses. In such transactions, user information may be among the
-        transferred assets.
+        We do not sell or transfer any user information to third parties, except
+        in the following circumstances:
       </p>
-      <h2>Security</h2>
+      <ul>
+        <li>
+          With Google AdMob for the purpose of serving advertisements, as
+          described in the Advertising section above
+        </li>
+        <li>
+          As required by law or in response to subpoenas, court orders, or other
+          legal requirements
+        </li>
+        <li>To exercise our legal rights or defend against legal claims</li>
+        <li>
+          To investigate, prevent, or take action regarding illegal activities,
+          suspected fraud or abuse, or violations of our policies
+        </li>
+        <li>To protect our rights and property</li>
+        <li>
+          In connection with a sale, merger, or acquisition of all or part of
+          our business, in which case user information may be among the
+          transferred assets
+        </li>
+      </ul>
+      <h2>Your Choices</h2>
       <p>
-        The RoR2 Handbook app does not make any kind of network requests nor
-        store any data of its own. If this changes, this privacy policy will be
-        updated accordingly.
+        You can opt out of personalized ads through your device settings. On
+        both iOS and Android, go to{' '}
+        <strong>Settings &gt; Manage Ad Preferences</strong> to control ad
+        personalization.
+      </p>
+      <p>
+        Please note that opting out of personalized ads does not remove ads from
+        the app — you will still see ads, but they may be less relevant to you.
+      </p>
+      <h2>Data Security</h2>
+      <p>
+        We are committed to safeguarding any information collected through the
+        app and employ appropriate technical and organisational measures to do
+        so. That said, no data transmission or storage method can be guaranteed
+        to be completely secure.
       </p>
       <h2>Your Consent</h2>
       <p>By using our app, you consent to our privacy policy.</p>
@@ -73,6 +138,10 @@ const PrivacyPolicy = () => (
         this page. Summary of changes so far:
       </p>
       <ul>
+        <li>
+          4 Mar 2026: Update to include information about Google AdMob
+          personalized ads and IDFA usage
+        </li>
         <li>
           15 Sept 2020: Update to reflect aggregate, anonymous usage analytics
           collection.
